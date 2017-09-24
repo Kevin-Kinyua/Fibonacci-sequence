@@ -1,4 +1,4 @@
-# Program to display the Fibonacci sequence up to n-th term where n is provided by the user
+# Program to display the   up to n-th term where n is provided by the user
 
 
 nterms = int(input("How many terms? "))
@@ -12,10 +12,10 @@ count = 0
 if nterms <= 0:
    print("Please enter a positive integer")
 elif nterms == 1:
-   print("Fibonacci sequence upto",nterms,":")
+   print("  upto",nterms,":")
    print(n1)
 else:
-   print("Fibonacci sequence upto",nterms,":")
+   print("  upto",nterms,":")
    while count < nterms:
        print(n1,end=' , ')
        nth = n1 + n2
